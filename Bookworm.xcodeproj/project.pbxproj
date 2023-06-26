@@ -11,6 +11,7 @@
 		7B5928CE2A49D24F00B84EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5928CD2A49D24F00B84EE1 /* ContentView.swift */; };
 		7B5928D02A49D25100B84EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5928CF2A49D25100B84EE1 /* Assets.xcassets */; };
 		7B5928D32A49D25100B84EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5928D22A49D25100B84EE1 /* Preview Assets.xcassets */; };
+		7B5928DB2A49D51600B84EE1 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5928DA2A49D51600B84EE1 /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7B5928CD2A49D24F00B84EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B5928CF2A49D25100B84EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B5928D22A49D25100B84EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B5928DA2A49D51600B84EE1 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7B5928CB2A49D24F00B84EE1 /* BookwormApp.swift */,
 				7B5928CD2A49D24F00B84EE1 /* ContentView.swift */,
+				7B5928D92A49D50200B84EE1 /* Introduction */,
 				7B5928CF2A49D25100B84EE1 /* Assets.xcassets */,
 				7B5928D12A49D25100B84EE1 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				7B5928D22A49D25100B84EE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B5928D92A49D50200B84EE1 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				7B5928DA2A49D51600B84EE1 /* BindingView.swift */,
+			);
+			path = Introduction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				7B5928CE2A49D24F00B84EE1 /* ContentView.swift in Sources */,
 				7B5928CC2A49D24F00B84EE1 /* BookwormApp.swift in Sources */,
+				7B5928DB2A49D51600B84EE1 /* BindingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
