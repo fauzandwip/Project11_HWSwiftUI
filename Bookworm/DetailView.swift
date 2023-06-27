@@ -16,6 +16,14 @@ struct DetailView: View {
     
     let book: Book
     
+    // challenge 3
+    var formattedDate: String {
+        guard let date = book.date else { return "" }
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        return "Reviewed on \(formatter.string(from: date))"
+    }
+    
     var body: some View {
         ScrollView {
             ZStack(alignment: .bottomTrailing) {
@@ -33,15 +41,20 @@ struct DetailView: View {
                     .offset(x: -5, y: -5)
             }
             
-            Text(book.author!)
+            Text(book.author ?? "Unknown Author ")
                 .font(.title)
                 .foregroundColor(.secondary)
             
             Text(book.review ?? "No Review")
                 .padding()
             
+            // challenge 3
+            Text(formattedDate)
+                .padding(.bottom, 20)
+            
             RatingView(rating: .constant(Int(book.rating)))
                 .font(.largeTitle)
+            
         }
         .navigationTitle(book.title ?? "Unknown Book")
         .navigationBarTitleDisplayMode(.inline)
