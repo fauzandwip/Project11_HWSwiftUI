@@ -15,6 +15,7 @@ struct ContentView: View {
         SortDescriptor(\.title),
         SortDescriptor(\.author)
     ]) var books: FetchedResults<Book>
+    
     @State private var showingAddScreen = false
     
     var body: some View {
