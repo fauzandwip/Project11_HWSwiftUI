@@ -28,7 +28,7 @@ struct DetailView: View {
                     .offset(x: -5, y: -5)
             }
             
-            Text(book.title ?? "Unknown Title")
+            Text(book.author ?? "Unknown Author")
                 .font(.title)
                 .foregroundColor(.secondary)
             
