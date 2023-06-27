@@ -18,7 +18,7 @@ struct AddBookView: View {
     @State private var rating = 3
     
     let genres = ["Fantasy", "Horror", "Kids", "Mystery", "Poetry", "Romance", "Thriller"]
-
+    
     var body: some View {
         NavigationView {
             Form {
@@ -53,10 +53,32 @@ struct AddBookView: View {
                         try? moc.save()
                         dismiss()
                     }
+                    // challenge 1
+                    .disabled(!isDisable)
                 }
             }
             .navigationTitle("Add Book")
         }
+    }
+    
+    // challenge 1
+    var isDisable: Bool {
+        if title.isEmpty || author.isEmpty {
+            return false
+        }
+        
+        if title.isOnlySpaces || author.isOnlySpaces {
+            return false
+        }
+        
+        return true
+    }
+}
+
+// challenge 1
+extension String {
+    var isOnlySpaces: Bool {
+        return self.drop(while: { $0 == " "}).isEmpty
     }
 }
 

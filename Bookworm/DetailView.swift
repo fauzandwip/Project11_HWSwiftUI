@@ -33,7 +33,7 @@ struct DetailView: View {
                     .offset(x: -5, y: -5)
             }
             
-            Text(book.author ?? "Unknown Author")
+            Text(book.author!)
                 .font(.title)
                 .foregroundColor(.secondary)
             
