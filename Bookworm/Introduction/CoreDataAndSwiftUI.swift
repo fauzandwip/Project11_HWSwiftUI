@@ -9,13 +9,13 @@ import SwiftUI
 
 struct CoreDataAndSwiftUI: View {
     @Environment(\.managedObjectContext) var moc
-    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
+//    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
     
     var body: some View {
         VStack {
-            List(students) { student in
-                Text(student.name ?? "unknown")
-            }
+//            List(students) { student in
+//                Text(student.name ?? "unknown")
+//            }
             
             Button("Add") {
                 let firstNames = ["Ginny", "Harry", "Hermione", "Luna", "Ron"]
@@ -24,9 +24,9 @@ struct CoreDataAndSwiftUI: View {
                 let chosenFirstName = firstNames.randomElement()!
                 let chosenLastName = lastNames.randomElement()!
                 
-                let student = Student(context: moc)
-                student.id = UUID()
-                student.name = "\(chosenFirstName) \(chosenLastName)"
+//                let student = Student(context: moc)
+//                student.id = UUID()
+//                student.name = "\(chosenFirstName) \(chosenLastName)"
                 
                 try? moc.save()
             }
