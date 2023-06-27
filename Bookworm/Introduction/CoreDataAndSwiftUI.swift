@@ -18,11 +18,11 @@ struct CoreDataAndSwiftUI: View {
 //            }
             
             Button("Add") {
-                let firstNames = ["Ginny", "Harry", "Hermione", "Luna", "Ron"]
-                let lastNames = ["Granger", "Lovegood", "Potter", "Weasley"]
+//                let firstNames = ["Ginny", "Harry", "Hermione", "Luna", "Ron"]
+//                let lastNames = ["Granger", "Lovegood", "Potter", "Weasley"]
 
-                let chosenFirstName = firstNames.randomElement()!
-                let chosenLastName = lastNames.randomElement()!
+//                let chosenFirstName = firstNames.randomElement()!
+//                let chosenLastName = lastNames.randomElement()!
                 
 //                let student = Student(context: moc)
 //                student.id = UUID()
