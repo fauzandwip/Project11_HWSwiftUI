@@ -20,6 +20,7 @@
 		7BB580732A4AB90C00E687D8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580722A4AB90C00E687D8 /* AddBookView.swift */; };
 		7BB580752A4AC79700E687D8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580742A4AC79700E687D8 /* RatingView.swift */; };
 		7BB580772A4ACB7400E687D8 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580762A4ACB7400E687D8 /* EmojiRatingView.swift */; };
+		7BB580792A4AD25D00E687D8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580782A4AD25D00E687D8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7BB580722A4AB90C00E687D8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		7BB580742A4AC79700E687D8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		7BB580762A4ACB7400E687D8 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		7BB580782A4AD25D00E687D8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				7BB580722A4AB90C00E687D8 /* AddBookView.swift */,
 				7BB580742A4AC79700E687D8 /* RatingView.swift */,
 				7BB580762A4ACB7400E687D8 /* EmojiRatingView.swift */,
+				7BB580782A4AD25D00E687D8 /* DetailView.swift */,
 				7BB580702A4AB8A000E687D8 /* DataController.swift */,
 				7B5928D92A49D50200B84EE1 /* Introduction */,
 				7BB5806D2A4AB83100E687D8 /* Bookworm.xcdatamodeld */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5928CE2A49D24F00B84EE1 /* ContentView.swift in Sources */,
+				7BB580792A4AD25D00E687D8 /* DetailView.swift in Sources */,
 				7BB580732A4AB90C00E687D8 /* AddBookView.swift in Sources */,
 				7B5928DF2A4AAFDF00B84EE1 /* CoreDataAndSwiftUI.swift in Sources */,
 				7BB580752A4AC79700E687D8 /* RatingView.swift in Sources */,
